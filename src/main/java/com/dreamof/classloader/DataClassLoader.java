@@ -24,6 +24,7 @@ public class DataClassLoader extends ClassLoader {
      */
     public DataClassLoader(String path) {
         super();
+        System.out.println("constructor");
         this.path = path;
     }
 
